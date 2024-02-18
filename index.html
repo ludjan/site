@@ -1,1 +1,464 @@
-Some text
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Ludvig Jansson</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+
+            <section class="lud-header">
+                <div class="container">
+                    <h1 id="lud-heading" style="text-align: center">
+                        lud<span style="color: #AEA8A8">vig</span>
+                        </br>
+                        jan<span style="color: #AEA8A8">sson</span>
+                    </h1>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1>What is this?</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-6">
+                            <div class="lud-card">
+                                <p>
+                                    This is my old portfolio and CV. <br> 
+                                    I hope you have time to check it out.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="offset-xs-2 col-xs-8 col-lg-6">
+                            <img class="profile-image" style="width:100%;height:100%;" src="images/profile_picture.jpg" alt="Photo of me">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1>What do I know?</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6"> <!-- first column -->
+                            <div class="lud-card" >
+                                <p>Basic object oriented programming
+                                    <ul>
+                                        <li>Python</li>
+                                        <li>Java</li>
+                                        <li>Kotlin</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="lud-card" >
+                                <p>Basic database management
+                                    <ul>
+                                        <li>SQL</li>
+                                        <li>ER modeling</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="lud-card">
+                                Basic software modeling
+                                <ul>
+                                    <li>Use case diagrams</li>
+                                    <li>Sequence diagrams</li>
+                                    <li>Class diagrams</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6"> <!-- second column -->
+
+                            <div class="lud-card">
+                                Basic web programming
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
+
+                            <div class="lud-card">
+                                Basic network programming
+                                <ul>
+                                    <li>C</li>
+                                </ul>
+                            </div>
+
+                            <div class="lud-card">
+                                Reading and using system documentation
+                            </div>
+
+                            <div class="lud-card">
+                                Software engineering processes
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1>Where am I going?</h1>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="lud-card">
+                            I wish to one day become a competent system architect, with a solid coding background.
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <!-- tungvindt å lese -->
+                        <h1>How do I get there?</h1>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="lud-card">
+
+                            <p>
+                                Right now, I want to get some more practical experience.
+                            </p>
+                            Some of the activities I could see myself doing:
+                            <ul>
+                                <li>Designing and implementing functionality</li>
+                                <li>Working in teams</li>
+                                <li>Discussing software design</li>
+                                <li>Reviewing other people’s code</li>
+                                <li>Writing unit and integration tests</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1>What have I been doing recently?</h1>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="lud-card">
+                            <p>
+                                I am just finished with my second year in the bachelor program “Programming and System Architecture” at University of Oslo.
+                            </p>
+
+                            <p>
+                                Here, I have used Python to get to know object oriented programming,
+                                and later used Java to improve my understanding of threads, algorithms and data structures.
+                                I’ve experienced database management and learned (mainly theoretically) about security.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1>Last semester</h1>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="lud-card">
+
+                            <p>
+                                In this last semester, spring 2022, I’ve written simpler programs in C,
+                                and understood more about what happens in the local machine and on the web.
+                            </p>
+                            <p>
+                                The most advanced program I have written in C was the three week home exam, where I created a chat application.
+                                <ul>
+                                    <li>The chat application consisted of a server program and a client program.</li>
+                                    <li>The server maintained a list of active clients through incoming heartbeat messages, and responded to lookup messages from clients.</li>
+                                    <li>Clients could send messages to each other, by finding the recipients address and port on the server.</li>
+                                    <li>To account for lost packages, I implemented a stop-and- wait protocol on top of UDP.</li>
+                                    <li>The chat program is available at potential employers request</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="lud-card">
+
+                            <p>
+                                This spring, I’ve also worked with a group project where we used Kotlin and Android Studio to create a weather app.
+                                In the project, I’ve gotten to apply my skills in programming and knownledge about the more process related themes I’ve learned about.
+                                Through working with the app, I’ve acquired a better understanding of working with frameworks, design patterns and software architecture.
+                            </p>
+                            <p>
+                                The group project is not mine alone to share, so instead I'll share <a class="lud-link" href="https://github.com/ludjan/WeatherConditions">another weather app</a> I'm building just for fun, which will probably be better.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1>What's next?</h1>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="lud-card">
+
+
+                            <p>
+                                I am just finished with my second year in the bachelor program “Programming and System Architecture” at University of Oslo.
+                            </p>
+
+                            <p>
+                                I am very eager to learn more. These coming semesters, I am planning to get a better understanding
+                                of programming languages in general, the functional paradigm and parallelization.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <h1>How have I done in school so far?</h1>
+                    </div>
+
+                    <div class="lud-card">
+                        Here are the passed courses and grades from my studies so far:
+                    </div>
+
+                    <table class="table table-dark justify-content-xs-center">
+                        <thead>
+                            <tr>
+                                <th scope="col">Course</th>
+                                <th scope="col">Semester</th>
+                                <th scope="col">Grade</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.hivolda.no/emne/AMV124/5252">
+                                        Interaksjonsdesign og brukervennelighet
+                                    </a>
+                                </th>
+                                <td>Autumn 2017<br>Spring 2018</td>
+                                <td>B</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break"href="https://www.uio.no/studier/emner/matnat/ifi/IN1000/index.html">
+                                        Introduksjon til objektorientert programmering
+                                    </a>
+                                </th>
+                                <td>Autumn 2020</td>
+                                <td>B</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN1020/index.html">
+                                        Introduksjon til datateknologi
+                                    </a>
+                                </th>
+                                <td>Autumn 2020</td>
+                                <td>Passed</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN1000/index.html">
+                                        Examen philosophicum
+                                    </a>
+                                </th>
+                                <td>Autumn 2020</td>
+                                <td>B</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN1030/index.html">
+                                        Systemer, krav og konsekvenser
+                                    </a>
+                                </th>
+                                <td>Spring 2021</td>
+                                <td>Passed</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN1010/index.html">
+                                        Objektorientert programmering
+                                    </a>
+                                </th>
+                                <td>Spring 2021</td>
+                                <td>A</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN1150/index.html">
+                                        Logiske metoder
+                                    </a>
+                                </th>
+                                <td>Spring 2021</td>
+                                <td>A</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN2120/index.html">
+                                        Informasjonssikkerhet
+                                    </a>
+                                </th>
+                                <td>Autumn 2021</td>
+                                <td>A</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN2010/index.html">
+                                        Algoritmer og datastrukturer
+                                    </a>
+                                </th>
+                                <td>Autumn 2021</td>
+                                <td>B</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN2090/index.html">
+                                        Database- og databasemodellering
+                                    </a>
+                                </th>
+                                <td>Autumn 2021</td>
+                                <td>A</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN2000/index.html">
+                                        Software Engineering med prosjektarbeid
+                                    </a>
+                                </th>
+                                <td>Spring 2022</td>
+                                <td>A</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN2140/index.html">
+                                        Introduksjon til operativsystemer og datakommunikasjon
+                                    </a>
+                                </th>
+                                <td>Spring 2022</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN2040/h22/index.html">
+                                        Funksjonell programmering
+                                    </a>
+                                </th>
+                                <td>Autumn 2023</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN2030/index.html">
+                                        Prosjektoppgave i programmering
+                                    </a>
+                                </th>
+                                <td>Autumn 2023</td>
+                                <td>Passed</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <a class="table-link text-break" href="https://www.uio.no/studier/emner/matnat/ifi/IN3040/index.html">
+                                        Programmeringsspråk
+                                    </a>
+                                </th>
+                                <td>Autumn 2023</td>
+                                <td>C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        <section>
+            <div class="container">
+                <div class="text-center">
+                    <h1>Do you want to know more?</h1>
+                </div>
+                <div class="lud-card">
+
+                    <p>Hit me up on LinkedIn for a chat</p>
+
+                    <a role="button" class="btn btn-link lud-btn" href="https://github.com/ludjan">github.com/ludjan</a>
+                    <a role="button" class="btn btn-link lud-btn" href="https://www.linkedin.com/in/ludvig-jansson-ab34a6114/">LinkedIn</a>
+                    <a role="button" class="btn btn-link lud-btn" href="CV_2022_3.pdf">more formal CV.pdf</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container text-center">
+                <p>Last update: 2023-01-06</p>
+            </div>
+        </section>
+    </div>
+    </div> <!-- close wrapper -->
+
+        <!-- <section>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <button class="btn" onclick="clickFunction()">
+                        This is a button
+                    </button>
+                </div>
+            </div>
+        </section> -->
+
+        <script>
+
+
+            // // for updating size of heading
+            // var bigHeading = false;
+            // function clickFunction() {
+                //     if (bigHeading == true) {
+                    //         document.getElementById("lud-heading").style.fontSize = "100px";
+                    //         bigHeading = false;
+                    //     } else {
+                        //         document.getElementById("lud-heading").style.fontSize = "50px";
+                        //         bigHeading = true;
+                        //     }
+
+                        // }
+        </script>
+    </body>
+</html>
