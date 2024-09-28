@@ -21,9 +21,29 @@ p, ul, li, div, tr {
     color: rgb(37, 227, 37);
 }
 
+.grade-table {
+    padding: 20px;
+    border-color: rgb(37, 227, 37);
+    .grade-row {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-top-style: dashed;
+    }
+    .last-grade-row {
+        border-bottom-style: dashed;
+        padding: 10px;
+    }
+    .course-link {
+        font-size: 18px;
+    }
+    .no-left-padding {
+        padding-left: 0px;
+    }
+}
+
 a {
     color: #007BFF;
-    div {
+    p {
         color: #007BFF;
     }
 }
@@ -58,10 +78,6 @@ ul {
 }
 .lud-p {
     margin-bottom: 0em;
-}
-table, tr {
-    border-style: dashed;
-    border-color:rgb(37, 227, 37)
 }
 .li-clickable {
     padding-top: 10px;
